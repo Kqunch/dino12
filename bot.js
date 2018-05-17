@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'd!sad') {
-    	message.reply('https://gyazo.com/d48c471902275718a5cba879d357a032');
+    	message.reply('https://gyazo.com/3eba1864ba0082c87336c7924332ec6b');
   	}
 });
 
