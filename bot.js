@@ -6,10 +6,20 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'd!sad') {
-    	message.reply('https://i.gyazo.com/25f0c3b341d3bd94220ff4029f83db9f.gif');
-  	}
+    var msg = message.content.toLowerCase();
+    if (msg === 'd!coffee') {
+      message.reply(':coffee:');
+    } else if (msg === 'd!blendcharacters') {
+      message.reply('https://goo.gl/images/zdC8DT');
+    } else if (msg === 'd!re:zero') {
+      message.reply('https://www.watchcartoononline.io/anime/re-zero-kara-hajimeru-isekai-seikatsu-english-subbed');
+    } else if (msg === '^help') {
+      message.reply('To use this bot please enter the name of an anime with ^ in front of it and if we have that anime link it will');
+    } else if (msg === '^list') {
+      message.reply('assassination classroom, blend s, re:zero ');
+    } else if (msg === '^trash') {
+      message.reply('https://www.watchcartoononline.io/anime/sword-art-online');
+    }
 });
 
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
