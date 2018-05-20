@@ -9,7 +9,7 @@ client.on('message', message => {
     var msg = message.content.toLowerCase();
     if (msg === 'd!coffee') {
       message.reply(':coffee:');
-    } else if (msg === 'd!blendcharacters') {
+    } else if (msg === 'd!blendscharacters') {
       message.reply('https://goo.gl/images/zdC8DT');
     } else if (msg === 'd!re:zero') {
       message.reply('https://www.watchcartoononline.io/anime/re-zero-kara-hajimeru-isekai-seikatsu-english-subbed');
