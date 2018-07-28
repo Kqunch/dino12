@@ -7,8 +7,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
     var msg = message.content.toLowerCase();
-    if (msg === 'd!coffee') {
-      message.reply(':coffee:');
+    if (msg === 'd!tea') {
+      message.reply(':tea:');
     } else if (msg === 'd!blendscharacters') {
       message.reply('https://goo.gl/images/zdC8DT');
     } else if (msg === 'd!re:zero') {
